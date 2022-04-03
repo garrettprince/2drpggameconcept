@@ -1,6 +1,6 @@
 # 2D RPG Proof of Concept
 > 2D Pokemon-like game built entirely with Javascript, HTML, and CSS.
-> Live demo [_here_](2drpggameconcept.vercel.app). 
+> Live demo [_here_](2drpggameconcept-garrettprince.vercel.app). 
 
 ## Table of Contents
 * [General Info](#general-information)
