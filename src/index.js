@@ -399,10 +399,18 @@ function animate() {
     }
 }
 
+// Initiates music for overworld once user clicks once
 let clicked = false
 addEventListener('click', () => {
     if (!clicked) {
         audio.Map.play()
         clicked = true
+    }
+})
+
+// Initiates closing of black instruction popup on screen load once clicked
+addEventListener('click', () => {
+    if (clicked) {
+        document.querySelector('#startupPopup').style.opacity = '0'
     }
 })

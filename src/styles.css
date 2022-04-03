@@ -20,6 +20,35 @@ button:hover {
     cursor: pointer;
 }
 
+#startupPopup {
+    position: absolute;
+    width: 750px;
+    height: 400px;
+    z-index: 15;
+    background-color: black;
+    opacity: 0.88;
+    border-radius: 15px;
+    top: 100px;
+    left: 145px;
+}
+
+#startupPopup h1 {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#startupPopup p {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
 #parentScreen {
     display: inline-block;
     position: relative;
