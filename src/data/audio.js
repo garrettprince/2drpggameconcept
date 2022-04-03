@@ -10,7 +10,7 @@ const audio = {
         volume: 0.01
     }),
     battle: new Howl({
-        src: 'static/ChrisCourses-Pokemon/Audio/battle.mp3',
+        src: 'static/ChrisCourses-Pokemon/Audio/vacancychainbattlev1.mp3',
         html5: true,
         volume: 0.09
     }),
